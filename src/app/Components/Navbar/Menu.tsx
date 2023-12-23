@@ -40,7 +40,7 @@ const Menu = () => {
                 </Link>
               </li>
               <li className="text-secondary hover:underline underline-offset-4">
-                <Link href="/">
+                <Link href="#skills">
                   <button>Skills</button>
                 </Link>
               </li>
