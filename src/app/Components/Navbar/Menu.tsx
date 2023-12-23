@@ -25,7 +25,7 @@ const Menu = () => {
               onMouseLeave={() => setShowMenu(false)}
             >
               <li className="text-secondary hover:underline underline-offset-4">
-                <Link href="/">
+                <Link href="#hero">
                   <button>Home</button>
                 </Link>
               </li>
@@ -45,7 +45,7 @@ const Menu = () => {
                 </Link>
               </li>
               <li className="text-secondary hover:underline underline-offset-4">
-                <Link href="/">
+                <Link href="#portfolio">
                   <button>Portfolio</button>
                 </Link>
               </li>
