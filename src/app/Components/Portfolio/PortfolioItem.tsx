@@ -20,13 +20,8 @@ const PortfolioItem = ({
           <p className="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-info">
             {description}
           </p>
-          <Link
-            className="btn btn-primary max-w-32"
-            href={projectUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Visit
+          <Link href={projectUrl} target="_blank" rel="noopener noreferrer">
+            <button className="btn btn-primary max-w-32">Visit</button>
           </Link>
         </div>
 
@@ -34,6 +29,7 @@ const PortfolioItem = ({
           src={videoUrl}
           title={name}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          className="w-full h-full max-w-md min-h-60"
         />
       </div>
     </div>

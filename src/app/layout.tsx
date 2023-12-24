@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" data-theme="coffee" className="scroll-smooth">
-      <body className={inter.className}>
+      <body className={`${inter.className} prose max-w-none`}>
         <Navbar />
         {children}
       </body>
