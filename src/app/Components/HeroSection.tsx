@@ -14,9 +14,19 @@ const HeroSection = () => (
       <li>Expert in React, Next.js, and TypeScript</li>
       <li>Enthusiast of Continuous Learning and Innovation</li>
     </ul>
-    <Link href="#portfolio">
-      <button className="btn btn-accent max-w-32">See Portfolio</button>
-    </Link>
+    <div className="flex gap-5">
+      <Link href="#portfolio">
+        <button className="btn btn-accent max-w-32">See Portfolio</button>
+      </Link>
+      <Link
+        href="https://www.linkedin.com/in/pedroprogrammer/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="btn btn-primary max-w-32">My LinkedIn</button>
+      </Link>
+    </div>
+
     <p className="absolute bottom-16 w-full text-center">⬇️ See more ⬇️</p>
   </section>
 );

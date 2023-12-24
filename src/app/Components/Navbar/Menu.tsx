@@ -30,16 +30,6 @@ const Menu = () => {
                 </Link>
               </li>
               <li className="text-secondary hover:underline underline-offset-4">
-                <Link href="/">
-                  <button>About</button>
-                </Link>
-              </li>
-              <li className="text-secondary hover:underline underline-offset-4">
-                <Link href="/">
-                  <button>Values</button>
-                </Link>
-              </li>
-              <li className="text-secondary hover:underline underline-offset-4">
                 <Link href="#skills">
                   <button>Skills</button>
                 </Link>
@@ -47,16 +37,6 @@ const Menu = () => {
               <li className="text-secondary hover:underline underline-offset-4">
                 <Link href="#portfolio">
                   <button>Portfolio</button>
-                </Link>
-              </li>
-              <li className="text-secondary hover:underline underline-offset-4">
-                <Link href="/">
-                  <button>Testimonials</button>
-                </Link>
-              </li>
-              <li className="text-secondary hover:underline underline-offset-4">
-                <Link href="/">
-                  <button>Contact</button>
                 </Link>
               </li>
             </ul>
