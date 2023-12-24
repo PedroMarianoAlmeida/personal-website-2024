@@ -7,7 +7,7 @@ const HeroSection = () => (
     className="flex flex-col justify-center items-center gap-5 h-screen relative"
     id="hero"
   >
-    <h1 className="text-3xl font-bold">Hello, I'm Pedro Almeida</h1>
+    <h1 className="text-3xl font-bold">Hello, I{"'"}m Pedro Almeida</h1>
     <ul className="text-info list-disc ml-4">
       <li>Dynamic Web Developer with Global Experience</li>
       <li>Delivering code since 2018</li>

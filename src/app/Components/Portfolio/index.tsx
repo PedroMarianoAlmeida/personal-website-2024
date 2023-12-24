@@ -33,6 +33,7 @@ const Portfolio = () => (
     <h2 className="text-2xl font-bold">Featured Projects</h2>
     {portfolioList.map((portfolioItem, index, arr) => (
       <PortfolioItem
+        key={portfolioItem.name}
         portfolioItem={portfolioItem}
         isLast={index === arr.length - 1}
       />
