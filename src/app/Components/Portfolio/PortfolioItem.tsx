@@ -3,22 +3,16 @@ import { PortfolioList } from ".";
 
 interface PortfolioItemProps {
   portfolioItem: PortfolioList;
+  isLast: boolean;
 }
 
 const PortfolioItem = ({
   portfolioItem: { name, description, projectUrl, videoUrl },
+  isLast,
 }: PortfolioItemProps) => {
   return (
-    <section className="w-full">
+    <div className={`w-full ${isLast ? "" : "mb-5"}`}>
       <div className="container grid gap-8 px-4 xl:px-6 xl:grid-cols-2 xl:gap-12">
-        <iframe
-          width="560"
-          height="315"
-          src={videoUrl}
-          title={name}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        />
-
         <div className="flex flex-col gap-3 justify-center">
           <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl xl:text-4xl">
             {name}
@@ -35,8 +29,16 @@ const PortfolioItem = ({
             Visit
           </Link>
         </div>
+
+        <iframe
+          width="560"
+          height="315"
+          src={videoUrl}
+          title={name}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        />
       </div>
-    </section>
+    </div>
   );
 };
 

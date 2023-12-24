@@ -27,11 +27,11 @@ const portfolioList: PortfolioList[] = [
 const Portfolio = () => (
   <section
     id="portfolio"
-    className="flex flex-col justify-center items-center gap-5"
+    className="flex flex-col justify-center items-center gap-5 pt-20"
   >
     <h2 className="text-2xl font-bold">Featured Projects</h2>
-    {portfolioList.map((portfolioItem) => (
-      <PortfolioItem portfolioItem={portfolioItem} />
+    {portfolioList.map((portfolioItem , index, arr) => (
+      <PortfolioItem portfolioItem={portfolioItem} isLast={index === arr.length - 1}/>
     ))}
   </section>
 );

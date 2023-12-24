@@ -25,7 +25,7 @@ const categories: Category[] = [
 const SkillSection = () => {
   const [category, setCategory] = useState<Category>("Web Development");
   return (
-    <section className="flex flex-col gap-3 items-center" id="skills">
+    <section className="flex flex-col gap-3 items-center pt-20" id="skills">
       <h2 className="text-2xl font-bold">Skills</h2>
       <select
         className="select select-bordered w-full max-w-xs"
