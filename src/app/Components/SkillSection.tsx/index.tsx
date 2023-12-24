@@ -13,19 +13,17 @@ export type Category =
   | "Web Development";
 
 const categories: Category[] = [
+  "Web Development",
   "Programming Language / Framework",
+  "AI Tools",
+  "Testing and Development Tools",
+  "Professional Skills",
   "Backend and Cloud",
   "Code Concepts",
-  "Professional Skills",
-  "Testing and Development Tools",
-  "AI Tools",
-  "Web Development",
 ];
 
 const SkillSection = () => {
-  const [category, setCategory] = useState<Category>(
-    "Programming Language / Framework"
-  );
+  const [category, setCategory] = useState<Category>("Web Development");
   return (
     <section className="flex flex-col gap-3 items-center" id="skills">
       <h2 className="text-2xl font-bold">Skills</h2>
