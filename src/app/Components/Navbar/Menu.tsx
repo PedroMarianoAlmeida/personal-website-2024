@@ -39,6 +39,11 @@ const Menu = () => {
                   <button>Portfolio</button>
                 </Link>
               </li>
+              <li className="text-secondary hover:underline underline-offset-4">
+                <Link href="#history">
+                  <button>History</button>
+                </Link>
+              </li>
             </ul>
           )}
         </div>
