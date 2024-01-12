@@ -563,7 +563,11 @@ const SkillChart = ({ category }: { category: Category }) => {
 
   return (
     <div>
-      <ResponsiveContainer width="100%" height={400}>
+      <ResponsiveContainer
+        width="100%"
+        height={400}
+        className="hidden sm:block"
+      >
         <ScatterChart
           margin={{
             top: 50,
