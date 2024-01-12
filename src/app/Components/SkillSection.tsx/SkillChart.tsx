@@ -539,12 +539,27 @@ const data: {
 const tableHeaders = [
   { key: "label", value: "Name" },
   { key: "description", value: "Description" },
-  { key: "like", value: "I like (%)" },
-  { key: "know", value: "I know (%)" },
+  {
+    key: "likePercentage",
+    value: <div className="text-base sm:text-sm min-w-10">I like</div>,
+  },
+  {
+    key: "knowPercentage",
+    value: <div className="text-base sm:text-sm min-w-14">I know</div>,
+  },
 ];
 
 const SkillChart = ({ category }: { category: Category }) => {
-  const dataFiltered = data.filter((item) => item.category === category);
+  const dataFiltered = data
+    .filter((item) => item.category === category)
+    .map(({ description, know, label, like }) => ({
+      description,
+      label,
+      know,
+      like,
+      knowPercentage: <div className="text-center">{know}%</div>,
+      likePercentage: <div className="text-center">{like}%</div>,
+    }));
 
   return (
     <div>

@@ -11,8 +11,8 @@ interface TableProps<T extends string> {
 
 const Table = ({ columnHeaders, rows, headerGroups }: TableProps<string>) => {
   return (
-    <div className="overflow-x-auto w-11/12">
-      <table className="table table-zebra">
+    <div className="overflow-x-auto">
+      <table className="table-xs table-zebra">
         <thead>
           {headerGroups}
           <tr>
