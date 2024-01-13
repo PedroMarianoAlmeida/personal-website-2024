@@ -34,6 +34,14 @@ const Menu = () => {
               </li>
               <li>
                 <Link
+                  href="/blog"
+                  className="no-underline text-secondary hover:underline underline-offset-4"
+                >
+                  <button>Blog</button>
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="#skills"
                   className="no-underline text-secondary hover:underline underline-offset-4"
                 >

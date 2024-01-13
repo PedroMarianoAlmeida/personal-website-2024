@@ -16,14 +16,17 @@ const HeroSection = () => (
     </ul>
     <div className="flex gap-5">
       <Link href="#portfolio">
-        <button className="btn btn-accent max-w-32">See Portfolio</button>
+        <button className="btn btn-accent w-32">See Portfolio</button>
       </Link>
       <Link
         href="https://www.linkedin.com/in/pedroprogrammer/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button className="btn btn-primary max-w-32">My LinkedIn</button>
+        <button className="btn btn-primary w-32">My LinkedIn</button>
+      </Link>
+      <Link href="/blog">
+        <button className="btn btn-accent w-32">Blog</button>
       </Link>
     </div>
 
