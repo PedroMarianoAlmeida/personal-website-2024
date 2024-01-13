@@ -26,7 +26,7 @@ const Menu = () => {
             >
               <li>
                 <Link
-                  href="#hero"
+                  href="/#hero"
                   className="no-underline text-secondary hover:underline underline-offset-4"
                 >
                   <button>Home</button>

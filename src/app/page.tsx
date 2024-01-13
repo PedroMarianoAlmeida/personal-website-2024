@@ -5,7 +5,7 @@ import SkillSection from "@/Components/SkillSection.tsx";
 
 export default function Home() {
   return (
-    <main className="px-6 py-12 flex flex-col">
+    <main className="px-6 flex flex-col">
       <HeroSection />
       <SkillSection />
       <Portfolio />

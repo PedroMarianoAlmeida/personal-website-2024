@@ -541,11 +541,11 @@ const tableHeaders = [
   { key: "description", value: "Description" },
   {
     key: "likePercentage",
-    value: <div className="text-base sm:text-sm min-w-10">I like</div>,
+    value: <div className="sm:text-base text-sm min-w-10">I like</div>,
   },
   {
     key: "knowPercentage",
-    value: <div className="text-base sm:text-sm min-w-14">I know</div>,
+    value: <div className="sm:text-base text-sm min-w-14">I know</div>,
   },
 ];
 
