@@ -1,3 +1,4 @@
+import DigIn from "./Sessions/DigIn";
 import FinalResult from "./Sessions/FinalResult";
 import PreRequisites from "./Sessions/PreRequisites";
 import UseCases from "./Sessions/UseCases";
@@ -9,6 +10,7 @@ const BlogPost = () => {
       <PreRequisites />
       <FinalResult />
       <UseCases />
+      <DigIn />
     </main>
   );
 };

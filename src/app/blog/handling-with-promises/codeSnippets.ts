@@ -37,6 +37,33 @@ export const asyncWrapperSniped: CodeSnipedProps = {
   ],
 };
 
+export const asyncWrapperWithoutTypesSniped: CodeSnipedProps = {
+  fileName: "asyncWrapper.ts",
+  initialLineNumber: 13,
+  lines: [
+    {
+      content: "// ... Types not important at the moment",
+      indentation: 0,
+    },
+    { content: "", indentation: 0 },
+    { content: "export const asyncWrapper = async <T>(" },
+    { content: "callback: () => Promise<T>", indentation: 1 },
+    { content: "): Promise<asyncWrapperResponse<T>> => {" },
+    { content: "try {", indentation: 1 },
+    { content: "const result = await callback();", indentation: 1 },
+    { content: "return { success: true, result };", indentation: 1 },
+    { content: "} catch (error: any) {" },
+    { content: 'let message = "Unknown Error";', indentation: 1 },
+    {
+      content: "if (error instanceof Error) message = error.message;",
+      indentation: 1,
+    },
+    { content: "return { success: false, message };", indentation: 2 },
+    { content: "}", indentation: 1 },
+    { content: "};", indentation: 0 },
+  ],
+};
+
 export const serviceSniped: CodeSnipedProps = {
   fileName: "service.ts",
   lines: [
