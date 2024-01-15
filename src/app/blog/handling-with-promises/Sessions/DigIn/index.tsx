@@ -1,5 +1,6 @@
 import ErrorHandling from "./ErrorHandling";
 import MainCode from "./MainCode";
+import SuccessHandlingTypes from "./SuccesHandlingTypes";
 import TryCatch from "./TryCatch";
 
 const DigIn = () => (
@@ -8,6 +9,7 @@ const DigIn = () => (
     <MainCode />
     <TryCatch />
     <ErrorHandling />
+    <SuccessHandlingTypes />
   </>
 );
 export default DigIn;

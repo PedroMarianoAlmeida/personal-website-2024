@@ -6,7 +6,9 @@ import UseCases from "./Sessions/UseCases";
 const BlogPost = () => {
   return (
     <main className="px-3 mt-3">
-      <h1>Handling with promises (with code Snipped)</h1>
+      <h1>
+        Handling with promises <small>(with code Snipped)</small>
+      </h1>
       <PreRequisites />
       <FinalResult />
       <UseCases />
