@@ -21,7 +21,7 @@ const SwitchingCases = () => (
       <code>success</code> or the <code>error</code> type.
     </p>
     <CodeSniped {...asyncWrapperSniped} highlightLines={[2, 3, 7, 8, 18, 22]} />
-    <p>And as you can see, there is only tow options:</p>
+    <p>And as you can see, there is only two options:</p>
     <ul>
       <li>
         When there is an error, the <code>success</code> is <code>false</code>,
@@ -42,7 +42,7 @@ const SwitchingCases = () => (
       available, with all the types from the <code>mainFunction</code> result
     </p>
     <p>
-      <b>Note:</b> Does{"'"}t forget to treat the <code>mainFunction</code>{" "}
+      <b>Note:</b> Don{"'"}t forget to treat the <code>mainFunction</code>{" "}
       result on the <code>service.ts</code>, as explained{" "}
       <Link href="#error-handling">here</Link>
     </p>

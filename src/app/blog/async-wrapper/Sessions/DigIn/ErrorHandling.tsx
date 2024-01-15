@@ -31,7 +31,7 @@ const ErrorHandling = () => (
       necessities)
     </p>
     <p>
-      And when there is an error, I am sending an object with the message (witch
+      And when there is an error, I am sending an object with the message (which
       is a <code>string</code>) in one property, and the{" "}
       <code>success: false</code> (so ALWAYS that goes to catch block, the
       success will be false)

@@ -78,7 +78,7 @@ export const serviceSniped: CodeSnipedProps = {
     { content: "throw new Error('Your custom error message')", indentation: 3 },
     { content: "}", indentation: 2 },
     {
-      content: "const yourDataTreated = 'any another sanitization logic'",
+      content: "const yourDataTreated = 'any other sanitization logic'",
       indentation: 2,
     },
     { content: "return yourDataTreated", indentation: 2 },
@@ -95,6 +95,6 @@ export const consumingSniped: CodeSnipedProps = {
       content:
         "if (!myData.success) return 'SOMETHING'; //The return will ensure the right type in bellow lines",
     },
-    { content: "const typeSafeReturn = usageCount.result;" },
+    { content: "const typeSafeReturn = myData.result;" },
   ],
 };

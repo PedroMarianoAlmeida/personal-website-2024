@@ -31,7 +31,7 @@ const SuccessHandlingTypes = () => (
     <p>
       The <code>result</code> variable is the <code>Promise</code> from the{" "}
       <code>mainFunction</code> resolved, so the type of <code>result</code> is
-      the <code>T</code> from <code>{"Promise<T>"}</code> (witch means: The type
+      the <code>T</code> from <code>{"Promise<T>"}</code> (which means: The type
       of the data from the <code>mainFunction</code> result... or the{" "}
       <i>error</i>, but we already discuss this part).
     </p>
