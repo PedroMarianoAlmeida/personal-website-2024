@@ -3,7 +3,6 @@ import {
   asyncWrapperSniped,
   asyncWrapperWithoutTypesSniped,
 } from "@/app/blog/handling-with-promises/codeSnippets";
-import Link from "next/link";
 
 const SuccessHandlingTypes = () => (
   <>

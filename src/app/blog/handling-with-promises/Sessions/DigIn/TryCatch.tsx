@@ -16,7 +16,7 @@ const TryCatch = () => (
       {...asyncWrapperWithoutTypesSniped}
       highlightLines={[16, 19, 22]}
     />
-    <p>
+    <p id="error-handling">
       And not only the <code>mainFunction</code>, all sanitization can be handle
       in this way. The wrapper not <i>wrap</i> only the{" "}
       <code>mainFunction</code>, wrap the entire dataflow until the right data

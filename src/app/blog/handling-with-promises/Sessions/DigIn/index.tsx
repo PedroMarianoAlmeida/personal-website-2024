@@ -1,6 +1,7 @@
 import ErrorHandling from "./ErrorHandling";
 import MainCode from "./MainCode";
 import SuccessHandlingTypes from "./SuccesHandlingTypes";
+import SwitchingCases from "./SwitchingCases";
 import TryCatch from "./TryCatch";
 
 const DigIn = () => (
@@ -10,6 +11,7 @@ const DigIn = () => (
     <TryCatch />
     <ErrorHandling />
     <SuccessHandlingTypes />
+    <SwitchingCases />
   </>
 );
 export default DigIn;
