@@ -8,7 +8,7 @@ const TryCatch = () => (
   <>
     <h3>Try Catch</h3>
     <p>
-      For this reason we have the <code>try/catch</code> block, so if in line 19
+      For this reason we have the <code>try/catch</code> block, so if in line 17
       the <code>mainFunction</code> return an error, this will be treated on the{" "}
       <code>catch</code> block
     </p>
