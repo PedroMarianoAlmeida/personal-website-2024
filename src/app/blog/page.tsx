@@ -7,8 +7,9 @@ const BlogPage = () => {
       <h2>Check out my articles!</h2>
       <ul>
         <li>
-          <Link href="/blog/handling-with-promises">
-            Handling with promises (with code Snipped)
+          <Link href="/blog/async-wrapper">
+            Effective Promise Handling in TypeScript with Async Wrapper: A Code
+            Tutorial
           </Link>
         </li>
       </ul>

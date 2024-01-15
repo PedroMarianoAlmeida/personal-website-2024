@@ -3,7 +3,7 @@ import {
   asyncWrapperSniped,
   serviceSniped,
   consumingSniped,
-} from "@/app/blog/handling-with-promises/codeSnippets";
+} from "@/app/blog/async-wrapper/codeSnippets";
 const FinalResult = () => (
   <>
     <h2>Final Result</h2>

@@ -2,7 +2,7 @@ import CodeSniped from "@/Components/CodeSniped";
 import {
   asyncWrapperSniped,
   consumingSniped,
-} from "@/app/blog/handling-with-promises/codeSnippets";
+} from "@/app/blog/async-wrapper/codeSnippets";
 import Link from "next/link";
 
 const SwitchingCases = () => (

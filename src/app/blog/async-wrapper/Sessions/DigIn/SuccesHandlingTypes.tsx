@@ -2,7 +2,7 @@ import CodeSniped from "@/Components/CodeSniped";
 import {
   asyncWrapperSniped,
   asyncWrapperWithoutTypesSniped,
-} from "@/app/blog/handling-with-promises/codeSnippets";
+} from "@/app/blog/async-wrapper/codeSnippets";
 
 const SuccessHandlingTypes = () => (
   <>
