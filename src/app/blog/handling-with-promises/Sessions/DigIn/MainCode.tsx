@@ -8,14 +8,25 @@ const MainCode = () => (
   <>
     <h3>Main Code</h3>
     <p>So the first part is use the wrapper</p>
-    <CodeSniped {...serviceSniped} highlightLines={[3]} />
+    <CodeSniped {...serviceSniped} highlightLines={[2, 3, 10]} />
     <p>
-      The second is to make sure that your function is being called! (otherwise
-      this code is useless)
+      The <code>mainFunction</code> is YOUR function that calls any async data
+      (fetch, axios, etc). And it is <i>wrapped</i> in the{" "}
+      <code>asyncWrapper</code>.
+    </p>
+    <p>
+      The <code>functionThatHaveTheAsyncLogic</code> will return to your code
+      the object already treated, this is why I suggest use the{" "}
+      <code>service</code> convention name, but feel free to use any another
+      name.
+    </p>
+    <p>
+      Jumping to the second ... that is to make sure that your function is being
+      called! (otherwise this code is useless)
     </p>
     <CodeSniped
       {...asyncWrapperWithoutTypesSniped}
-      highlightLines={[16, 19, 20]}
+      highlightLines={[14, 17, 18]}
     />
     <p>
       So as you can see, the <code>asyncWrapper</code> has a param that is a

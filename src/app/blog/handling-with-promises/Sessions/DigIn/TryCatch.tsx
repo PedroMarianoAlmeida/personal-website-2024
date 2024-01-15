@@ -14,7 +14,7 @@ const TryCatch = () => (
     </p>
     <CodeSniped
       {...asyncWrapperWithoutTypesSniped}
-      highlightLines={[18, 21, 24]}
+      highlightLines={[16, 19, 22]}
     />
     <p>
       And not only the <code>mainFunction</code>, all sanitization can be handle

@@ -39,7 +39,7 @@ export const asyncWrapperSniped: CodeSnipedProps = {
 
 export const asyncWrapperWithoutTypesSniped: CodeSnipedProps = {
   fileName: "asyncWrapper.ts",
-  initialLineNumber: 13,
+  initialLineNumber: 11,
   lines: [
     {
       content: "// ... Types not important at the moment",
