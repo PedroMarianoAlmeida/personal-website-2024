@@ -1,7 +1,7 @@
-import HeroSection from "@/Components/HeroSection";
-import History from "@/Components/History";
-import Portfolio from "@/Components/Portfolio";
-import SkillSection from "@/Components/SkillSection.tsx";
+import HeroSection from "@/components/HeroSection";
+import History from "@/components/History";
+import Portfolio from "@/components/Portfolio";
+import SkillSection from "@/components/SkillSection.tsx";
 
 export default function Home() {
   return (

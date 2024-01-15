@@ -1,4 +1,4 @@
-import { CodeSnipedProps } from "@/Components/CodeSniped";
+import { CodeSnipedProps } from "@/components/CodeSniped";
 
 export const asyncWrapperSniped: CodeSnipedProps = {
   fileName: "asyncWrapper.ts",

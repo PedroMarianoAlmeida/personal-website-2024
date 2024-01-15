@@ -1,4 +1,4 @@
-import CodeSniped from "@/Components/CodeSniped";
+import CodeSniped from "@/components/CodeSniped";
 import {
   asyncWrapperSniped,
   consumingSniped,
