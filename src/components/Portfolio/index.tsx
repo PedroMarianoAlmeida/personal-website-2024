@@ -10,13 +10,6 @@ export interface PortfolioList {
 
 const portfolioList: PortfolioList[] = [
   {
-    name: "No Border Jobs",
-    description:
-      "Job platform focused exclusively in remote and global opportunities.",
-    videoUrl: "https://www.youtube.com/embed/t2rsif_PT7w?si=MlMYb7-BDhWR4utr", //Replace for the right URL
-    projectUrl: "https://www.nobordersjobs.com/",
-  },
-  {
     name: "SEO Helper",
     description:
       "Wep app to help with SEO, providing hashtags and image to any kind of social media",
