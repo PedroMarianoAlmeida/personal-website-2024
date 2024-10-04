@@ -23,11 +23,6 @@ const HeroSection = () => (
       </li>
     </ul>
     <div className="flex flex-wrap gap-5 w-100 justify-center">
-      <Link href="#portfolio">
-        <button className="btn btn-primary hover:btn-accent w-32">
-          See Portfolio
-        </button>
-      </Link>
       <Link
         href="https://www.linkedin.com/in/pedroprogrammer/"
         target="_blank"
@@ -37,8 +32,10 @@ const HeroSection = () => (
           My LinkedIn
         </button>
       </Link>
-      <Link href="/blog">
-        <button className="btn btn-primary hover:btn-accent w-32">Blog</button>
+      <Link href="/#testimonials">
+        <button className="btn btn-primary hover:btn-accent w-32">
+          Testimonials
+        </button>
       </Link>
     </div>
   </section>
