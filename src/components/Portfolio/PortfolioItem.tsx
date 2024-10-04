@@ -20,9 +20,10 @@ const PortfolioItem = ({
           <p className="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-info">
             {description}
           </p>
-          <Link href={projectUrl} target="_blank" rel="noopener noreferrer">
-            <button className="btn btn-primary max-w-32">Visit</button>
-          </Link>
+          {/* <Link href={projectUrl} target="_blank" rel="noopener noreferrer"> */}
+          <button className="btn btn-primary max-w-32">Visit</button>- Not
+          working because I stop paying the OpenAI api
+          {/* </Link> */}
         </div>
 
         <iframe
