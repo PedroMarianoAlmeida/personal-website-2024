@@ -3,7 +3,7 @@ import { ITestimonialItem } from ".";
 interface TestimonialItemProps {
   testimonialList: ITestimonialItem[];
 }
-const TestimonialCarousel = ({ testimonialList }: TestimonialItemProps) => {
+const TestimonialGroup = ({ testimonialList }: TestimonialItemProps) => {
   return (
     <div className="flex gap-3 flex-col">
       {testimonialList.map(({ name, pictureUrl, role, testimonialText }) => {
@@ -32,4 +32,4 @@ const TestimonialCarousel = ({ testimonialList }: TestimonialItemProps) => {
   );
 };
 
-export default TestimonialCarousel;
+export default TestimonialGroup;
