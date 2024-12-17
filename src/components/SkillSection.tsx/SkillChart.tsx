@@ -27,7 +27,7 @@ const data: {
     label: "ChatGPT",
     category: "AI Tools",
     description:
-      "I use almost everyday, usually to help to fix and/or explain code. (recent use case: Fix broken pages on Craft CMS 4 migration)",
+      "I leverage ChatGPT daily to debug, explain, and improve code. A recent use case includes fixing broken pages during a Craft CMS 4 migration.",
   },
   {
     like: 100,
@@ -35,7 +35,7 @@ const data: {
     label: "OpenAI API",
     category: "AI Tools",
     description:
-      "I am using on the SEO Helper project to generate text and image, I am using prompting engineering to force the tool to provide me in JSON format",
+      "I integrate OpenAI API in several projects, using the  text, image, JSON and Zod Object as response",
   },
   {
     like: 60,
@@ -43,7 +43,7 @@ const data: {
     label: "Github Copilot",
     category: "AI Tools",
     description:
-      "It is always on in my VSCode, I use only the autocomplete tool... for the rest I use ChatGPT",
+      "I primarily use GitHub Copilot for autocomplete within VSCode, while relying on ChatGPT for more comprehensive tasks.",
   },
   {
     like: 50,
@@ -51,7 +51,7 @@ const data: {
     label: "Midjourney",
     category: "AI Tools",
     description:
-      "I use a few times, but I prefer a web tool rather than discord for interact",
+      "I occasionally use Midjourney, although I prefer web-based tools over Discord for interaction.",
   },
   {
     like: 70,
@@ -59,7 +59,7 @@ const data: {
     label: "v0.dev",
     category: "AI Tools",
     description:
-      "I use for this website and the SEO Helper too. It is not the more creative layout but it is good enough",
+      "I utilize v0.dev for building layouts in projects like SEO Helper. While not highly creative, it delivers functional designs efficiently.",
   },
   {
     like: 80,
@@ -67,7 +67,7 @@ const data: {
     label: "Dall·e",
     category: "AI Tools",
     description:
-      "It is the first AI tool that I used! Now it is integrated with ChatGPT and the OpenAI API and I will keep using (the christmas gift for my wife I used an image generate by Dall·e)",
+      "Dall·e was the first AI tool I adopted. It is now seamlessly integrated into ChatGPT and OpenAI API, and I continue using it for projects, including generating a Christmas gift image for my wife.",
   },
   {
     like: 100,
@@ -75,7 +75,7 @@ const data: {
     label: "Prisma",
     category: "Backend and Cloud",
     description:
-      "I use on the SEO Helper and No Border Jobs projects to connect with the DB. My official choice for Side Projects",
+      "Prisma is my preferred choice for database integration in projects like SEO Helper and No Border Jobs.",
   },
   {
     like: 100,
@@ -83,7 +83,7 @@ const data: {
     label: "Next Auth",
     category: "Backend and Cloud",
     description:
-      "I use on the SEO Helper and No Border Jobs projects. The easiest way to use authentication",
+      "I rely on NextAuth for implementing authentication in SEO Helper and No Border Jobs due to its simplicity and efficiency.",
   },
   {
     like: 70,
@@ -91,7 +91,7 @@ const data: {
     label: "Google Auth",
     category: "Backend and Cloud",
     description:
-      "I use on the SEO Helper and No Border Jobs projects. It is my official provider using next-auth",
+      "I integrate Google Auth as the primary provider with NextAuth for user authentication in my projects.",
   },
   {
     like: 40,
@@ -99,7 +99,7 @@ const data: {
     label: "Authentication",
     category: "Backend and Cloud",
     description:
-      "I don't feel confident of biuld a secure authentication system by myself, usually I follow the same pattern of the project, and for my Side Projects I use next-auth",
+      "I generally follow established project patterns for secure authentication. For side projects, I prefer using NextAuth.",
   },
   {
     like: 90,
@@ -107,14 +107,15 @@ const data: {
     label: "Node",
     category: "Backend and Cloud",
     description:
-      "I already use with Express to build some APIs and DB integration, but as a Frontend Developer for me it is easier use NextJS",
+      "I use Node.js with frameworks like Express for building APIs and database integrations. However, I prefer Next.js for frontend-focused projects.",
   },
   {
     like: 70,
     know: 40,
     label: "GraphQL",
     category: "Backend and Cloud",
-    description: "I already used to consume strapi CMS and Gatsby",
+    description:
+      "I have experience consuming GraphQL APIs, particularly with Strapi CMS and Gatsby.",
   },
   {
     like: 80,
@@ -122,7 +123,7 @@ const data: {
     label: "Rest API",
     category: "Backend and Cloud",
     description:
-      "I have the same proficiency as any JavaScript feature, using fetch or axios",
+      "I am proficient in building and consuming REST APIs using tools like Fetch and Axios.",
   },
   {
     like: 100,
@@ -130,7 +131,7 @@ const data: {
     label: "AWS",
     category: "Backend and Cloud",
     description:
-      "I am studying for the AWS Certified Cloud Practitioner exam. And I already create some EC2 instances and S3 buckets by self",
+      "I am preparing for the AWS Certified Cloud Practitioner exam and have hands-on experience with EC2 instances and S3 buckets.",
   },
   {
     like: 80,
@@ -138,21 +139,23 @@ const data: {
     label: "Terraform",
     category: "Backend and Cloud",
     description:
-      "I am studying for the Terraform Associate exam, and I digging terraform files in my work. I am struggling to learn by myself but I have interest in learning it",
+      "I am actively studying Terraform for the Associate certification and exploring existing Terraform files in my work environment.",
   },
   {
     like: 70,
     know: 70,
     label: "Firebase",
     category: "Backend and Cloud",
-    description: "I use for some projects, but I prefer Prisma",
+    description:
+      "I have used Firebase for a few projects but generally prefer Prisma for database solutions.",
   },
   {
     like: 100,
     know: 40,
     label: "Docker",
     category: "Backend and Cloud",
-    description: "I consume docker images, but I don't create by myself",
+    description:
+      "I consume Docker images regularly, but I have not yet created custom images from scratch.",
   },
 
   {
@@ -161,7 +164,7 @@ const data: {
     label: "Clean Code",
     category: "Code Concepts",
     description:
-      "I already read the book and I try to apply the concepts in my everyday job",
+      "Having read the Clean Code book, I consistently apply its principles to write maintainable and readable code.",
   },
   {
     like: 60,
@@ -169,7 +172,7 @@ const data: {
     label: "TDD",
     category: "Code Concepts",
     description:
-      "I already use it in a few projects. This take more time for each task, but we move forward with more confidence and less bugs",
+      "I have practiced Test-Driven Development in projects, appreciating the confidence it brings to code quality despite the added upfront effort.",
   },
   {
     like: 60,
@@ -177,14 +180,15 @@ const data: {
     label: "Go Horse",
     category: "Code Concepts",
     description:
-      "I already use in some projects, there is the pros and cons. There is some specific cases that can be used, but I prefer to avoid",
+      "I have applied this approach in specific scenarios but prefer avoiding it due to long-term maintainability concerns.",
   },
   {
     like: 90,
     know: 70,
     label: "Refactoring",
     category: "Code Concepts",
-    description: "One of my preferred kind of task",
+    description:
+      "Refactoring is one of my favorite tasks, as it improves code structure and maintainability.",
   },
   {
     like: 100,
@@ -192,7 +196,7 @@ const data: {
     label: "Software Architecture",
     category: "Code Concepts",
     description:
-      "I passed for several kinds of projects and take extra effort to understand the reason for each one",
+      "I have worked across various project architectures and make an effort to understand their underlying design principles.",
   },
 
   {
@@ -201,7 +205,7 @@ const data: {
     label: "Technical Writing",
     category: "Professional Skills",
     description:
-      "I already write some articles and documentations. I am not a professional writer but I can do it",
+      "I have written articles and documentation as needed. While not a professional writer, I can effectively communicate technical concepts.",
   },
   {
     like: 100,
@@ -209,21 +213,23 @@ const data: {
     label: "Video Tutorial",
     category: "Professional Skills",
     description:
-      "I already record some videos on my Youtube channel and for task validation (if the audience is not another programmer, usually the person love it)",
+      "I have recorded tutorials for my YouTube channel and for validating tasks. Non-technical audiences typically find these very helpful.",
   },
   {
     like: 70,
     know: 50,
     label: "Scrum",
     category: "Professional Skills",
-    description: "Used in almost all my jobs",
+    description:
+      "Scrum has been part of the workflow in most of my professional roles.",
   },
   {
     like: 90,
     know: 90,
     label: "Kanbam",
     category: "Professional Skills",
-    description: "Used in almost all my jobs with several tools",
+    description:
+      "I frequently use Kanban boards with various tools to manage tasks efficiently.",
   },
   {
     like: 20,
@@ -237,7 +243,8 @@ const data: {
     know: 50,
     label: "Trello",
     category: "Professional Skills",
-    description: "Used in a few jobs, the best tool for Kanbam",
+    description:
+      "Trello is my preferred tool for implementing Kanban workflows.",
   },
   {
     like: 100,
@@ -267,7 +274,8 @@ const data: {
     know: 80,
     label: "Teaching",
     category: "Professional Skills",
-    description: "I already teach some classes and I love it",
+    description:
+      "I have experience teaching classes and enjoy sharing knowledge with others.",
   },
   {
     like: 100,
@@ -373,6 +381,14 @@ const data: {
     label: "Jest",
     category: "Testing and Development Tools",
     description: "I use in a lot of projects, for unit and integration tests",
+  },
+  {
+    like: 100,
+    know: 80,
+    label: "Turborepo",
+    category: "Testing and Development Tools",
+    description:
+      "Excellent approach to decouple reusable code to be used in several projects",
   },
   {
     like: 100,
