@@ -7,7 +7,7 @@ interface PortfolioItemProps {
 }
 
 const PortfolioItem = ({
-  portfolioItem: { name, description, projectUrl, videoUrl },
+  portfolioItem: { name, description, projectUrl, videoUrl, codeUrl },
   isLast,
 }: PortfolioItemProps) => {
   return (
@@ -20,10 +20,16 @@ const PortfolioItem = ({
           <p className="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-info">
             {description}
           </p>
-          {/* <Link href={projectUrl} target="_blank" rel="noopener noreferrer"> */}
-          <button className="btn btn-primary max-w-32">Visit</button>- Not
-          working because I stop paying the OpenAI api
-          {/* </Link> */}
+          <div className="flex gap-3">
+            <Link href={projectUrl} target="_blank" rel="noopener noreferrer">
+              <button className="btn btn-primary max-w-32">Visit</button>
+            </Link>
+            {codeUrl ? (
+              <Link href={codeUrl} target="_blank" rel="noopener noreferrer">
+                <button className="btn btn-primary max-w-32">Code</button>
+              </Link>
+            ) : null}
+          </div>
         </div>
 
         <iframe

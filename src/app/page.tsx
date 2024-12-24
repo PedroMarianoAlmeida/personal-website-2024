@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <main className="px-6 flex flex-col">
       <HeroSection />
+      <Portfolio />
       <Testimonials />
       <SkillSection />
-      <Portfolio />
       <History />
     </main>
   );

@@ -6,15 +6,17 @@ export interface PortfolioList {
   description: string;
   videoUrl: string;
   projectUrl: string;
+  codeUrl?: string;
 }
 
 const portfolioList: PortfolioList[] = [
   {
-    name: "SEO Helper",
-    description:
-      "Wep app to help with SEO, providing hashtags and image to any kind of social media",
-    videoUrl: "https://www.youtube.com/embed/zqw8P6qM2aw?si=vFUIFfj6Twf6eaJQ",
-    projectUrl: "https://hashtag-thumbnail-generator.vercel.app/",
+    name: "Better Image AI",
+    description: "Wep app the improve prompts and generate images",
+    videoUrl: "https://www.youtube.com/embed/RzEfBKXqp3U?si=EVyUGQ9jWIIE5ucO",
+    projectUrl: "https://better-image-ai.vercel.app/",
+    codeUrl:
+      "https://github.com/PedroMarianoAlmeida/offical-turbo-v1/tree/main/apps/next-15/better-image-ai",
   },
 ];
 
